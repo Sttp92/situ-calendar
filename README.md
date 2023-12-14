@@ -1,34 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Situ Calendar
 
-## Getting Started
+Se debe clonar el repositorio en local. Para hacerlo correr, se debe tener preinstalado lo necesario para correr una aplicación de nodejs, en este caso, instalar node v20.9.0
 
-First, run the development server:
+La aplicación usa una base de datos dummy con json-server, la cual se encuentra en la carpeta *data*, de forma que imita una base de datos y configura automáticamente algunos endpoints. Debe correr este servidor localmente para que la aplicación funcione. El esquema de la base de datos esta adjunta en el correo.
+
+Para correr la aplicación en local en el directorio principal del proyecto:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+En paralelo, correr json-server en otra terminal en el mismo directorio:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+json-server --watch --port 4000 ./data/db.json
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Flujo
 
-## Learn More
+Esta aplicación solo alcanzó a abordar la filtración por especialidad, la visualización de horas disponibles y el agendamiento de un servicio o cita.
 
-To learn more about Next.js, take a look at the following resources:
+## Variables de ambiente
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Se utiliza la variable de ambiente NEXT_PUBLIC_LOGGED_USER_ID en el archivo .env.local para simular el ID de un paciente loggeado en la aplicación. De forma de obtener sus datos para el formulario de agendamiento de hora.
