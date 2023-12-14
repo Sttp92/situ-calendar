@@ -1,0 +1,427 @@
+{
+  "patients": [
+    {
+      "id": "6.350.445-3",
+      "name": "Juan",
+      "last_name": "Sotomayor",
+      "email": "juan.sotomayor@gmail.cl",
+      "phone": "934567198",
+      "region": "Metropolitana",
+      "commune": "San Joaquín",
+      "address": "Av. Las Industrias 988",
+      "birthdate": "03/07/1957"
+    },
+    {
+      "id": "5.776.223-1",
+      "name": "Rosa",
+      "last_name": "Jimenez",
+      "email": "rosa.jimenez@gmail.cl",
+      "phone": "973614423",
+      "region": "Metropolitana",
+      "commune": "Providencia",
+      "address": "Av. Los Leones 10008",
+      "birthdate": "27/09/1952"
+    }
+  ],
+  "professionals": [
+    {
+      "id": "10.778.633-0",
+      "admin": true,
+      "name": "Laura",
+      "last_name": "Contreras",
+      "email": "laura.contreras@situ.cl",
+      "phone": "987766554",
+      "password": "pass",
+      "status": "active",
+      "specialty_id": "1",
+      "consultation_value": 25000
+    },
+    {
+      "id": "15.009.776-k",
+      "admin": false,
+      "name": "Roberto",
+      "last_name": "Salinas",
+      "email": "roberto.salinas@situ.cl",
+      "phone": "987766554",
+      "password": "pass",
+      "status": "active",
+      "specialty_id": "2",
+      "consultation_value": 25000
+    },
+    {
+      "id": "19.101.222-8",
+      "admin": false,
+      "name": "María",
+      "last_name": "Fernández",
+      "email": "maria.fernandez@situ.cl",
+      "phone": "987766554",
+      "password": "pass",
+      "status": "active",
+      "specialty_id": "3",
+      "consultation_value": 25000
+    },
+    {
+      "id": "16.334.000-2",
+      "admin": false,
+      "name": "Camila",
+      "last_name": "Vargas",
+      "email": "camila.vargas@situ.cl",
+      "phone": "987766554",
+      "password": "pass",
+      "status": "active",
+      "specialty_id": "3",
+      "consultation_value": 25000
+    }
+  ],
+  "specialties": [
+    {
+      "id": "1",
+      "name": "Enfermería"
+    },
+    {
+      "id": "2",
+      "name": "Kinesiología"
+    },
+    {
+      "id": "3",
+      "name": "Geriatría"
+    },
+    {
+      "id": "4",
+      "name": "Terapia Ocupacional"
+    }
+  ],
+  "shifts": [
+    {
+      "id": "100",
+      "day": "Lunes",
+      "start_time": "09:00:00",
+      "end_time": "10:00:00"
+    },
+    {
+      "id": "101",
+      "day": "Lunes",
+      "start_time": "10:00:00",
+      "end_time": "11:00:00"
+    },
+    {
+      "id": "102",
+      "day": "Lunes",
+      "start_time": "11:00:00",
+      "end_time": "12:00:00"
+    },
+    {
+      "id": "103",
+      "day": "Lunes",
+      "start_time": "12:00:00",
+      "end_time": "13:00:00"
+    },
+    {
+      "id": "104",
+      "day": "Lunes",
+      "start_time": "13:00:00",
+      "end_time": "14:00:00"
+    },
+    {
+      "id": "200",
+      "day": "Martes",
+      "start_time": "09:00:00",
+      "end_time": "10:00:00"
+    },
+    {
+      "id": "201",
+      "day": "Martes",
+      "start_time": "10:00:00",
+      "end_time": "11:00:00"
+    },
+    {
+      "id": "202",
+      "day": "Martes",
+      "start_time": "11:00:00",
+      "end_time": "12:00:00"
+    },
+    {
+      "id": "203",
+      "day": "Martes",
+      "start_time": "12:00:00",
+      "end_time": "13:00:00"
+    },
+    {
+      "id": "204",
+      "day": "Martes",
+      "start_time": "13:00:00",
+      "end_time": "14:00:00"
+    },
+    {
+      "id": "300",
+      "day": "Miércoles",
+      "start_time": "09:00:00",
+      "end_time": "10:00:00"
+    },
+    {
+      "id": "301",
+      "day": "Miércoles",
+      "start_time": "10:00:00",
+      "end_time": "11:00:00"
+    },
+    {
+      "id": "302",
+      "day": "Miércoles",
+      "start_time": "11:00:00",
+      "end_time": "12:00:00"
+    },
+    {
+      "id": "303",
+      "day": "Miércoles",
+      "start_time": "12:00:00",
+      "end_time": "13:00:00"
+    },
+    {
+      "id": "304",
+      "day": "Miércoles",
+      "start_time": "13:00:00",
+      "end_time": "14:00:00"
+    },
+    {
+      "id": "400",
+      "day": "Jueves",
+      "start_time": "09:00:00",
+      "end_time": "10:00:00"
+    },
+    {
+      "id": "401",
+      "day": "Jueves",
+      "start_time": "10:00:00",
+      "end_time": "11:00:00"
+    },
+    {
+      "id": "402",
+      "day": "Jueves",
+      "start_time": "11:00:00",
+      "end_time": "12:00:00"
+    },
+    {
+      "id": "403",
+      "day": "Jueves",
+      "start_time": "12:00:00",
+      "end_time": "13:00:00"
+    },
+    {
+      "id": "404",
+      "day": "Jueves",
+      "start_time": "13:00:00",
+      "end_time": "14:00:00"
+    },
+    {
+      "id": "500",
+      "day": "Viernes",
+      "start_time": "09:00:00",
+      "end_time": "10:00:00"
+    },
+    {
+      "id": "501",
+      "day": "Viernes",
+      "start_time": "10:00:00",
+      "end_time": "11:00:00"
+    },
+    {
+      "id": "502",
+      "day": "Viernes",
+      "start_time": "11:00:00",
+      "end_time": "12:00:00"
+    },
+    {
+      "id": "503",
+      "day": "Viernes",
+      "start_time": "12:00:00",
+      "end_time": "13:00:00"
+    },
+    {
+      "id": "504",
+      "day": "Viernes",
+      "start_time": "13:00:00",
+      "end_time": "14:00:00"
+    },
+    {
+      "id": "600",
+      "day": "Sábado",
+      "start_time": "09:00:00",
+      "end_time": "10:00:00"
+    },
+    {
+      "id": "601",
+      "day": "Sábado",
+      "start_time": "10:00:00",
+      "end_time": "11:00:00"
+    },
+    {
+      "id": "602",
+      "day": "Sábado",
+      "start_time": "11:00:00",
+      "end_time": "12:00:00"
+    },
+    {
+      "id": "603",
+      "day": "Sábado",
+      "start_time": "12:00:00",
+      "end_time": "13:00:00"
+    },
+    {
+      "id": "604",
+      "day": "Sábado",
+      "start_time": "13:00:00",
+      "end_time": "14:00:00"
+    },
+    {
+      "id": "700",
+      "day": "Domingo",
+      "start_time": "09:00:00",
+      "end_time": "10:00:00"
+    },
+    {
+      "id": "701",
+      "day": "Domingo",
+      "start_time": "10:00:00",
+      "end_time": "11:00:00"
+    },
+    {
+      "id": "702",
+      "day": "Domingo",
+      "start_time": "11:00:00",
+      "end_time": "12:00:00"
+    },
+    {
+      "id": "703",
+      "day": "Domingo",
+      "start_time": "12:00:00",
+      "end_time": "13:00:00"
+    },
+    {
+      "id": "704",
+      "day": "Domingo",
+      "start_time": "13:00:00",
+      "end_time": "14:00:00"
+    }
+  ],
+  "availability": [
+    {
+      "id": "1",
+      "professional_rut": "10.778.633-0",
+      "shift_id": "100",
+      "date": "2023-12-18",
+      "status": "scheduled"
+    },
+    {
+      "id": "2",
+      "professional_rut": "10.778.633-0",
+      "shift_id": "101",
+      "date": "2023-12-18",
+      "status": "active"
+    },
+    {
+      "id": "3",
+      "professional_rut": "10.778.633-0",
+      "shift_id": "201",
+      "date": "2023-12-19",
+      "status": "active"
+    },
+    {
+      "id": "4",
+      "professional_rut": "15.009.776-k",
+      "shift_id": "202",
+      "date": "2023-12-19",
+      "status": "active"
+    },
+    {
+      "id": "5",
+      "professional_rut": "15.009.776-k",
+      "shift_id": "300",
+      "date": "2023-12-20",
+      "status": "active"
+    },
+    {
+      "id": "6",
+      "professional_rut": "15.009.776-k",
+      "shift_id": "304",
+      "date": "2023-12-20",
+      "status": "active"
+    },
+    {
+      "id": "7",
+      "professional_rut": "16.334.000-2",
+      "shift_id": "300",
+      "date": "2023-12-20",
+      "status": "active"
+    },
+    {
+      "id": "8",
+      "professional_rut": "16.334.000-2",
+      "shift_id": "404",
+      "date": "2023-12-21",
+      "status": "active"
+    },
+    {
+      "id": "9",
+      "professional_rut": "19.101.222-8",
+      "shift_id": "602",
+      "date": "2023-12-23",
+      "status": "scheduled"
+    },
+    {
+      "id": "10",
+      "professional_rut": "10.778.633-0",
+      "shift_id": "102",
+      "date": "2023-12-18",
+      "status": "active"
+    }
+  ],
+  "appointment": [
+    {
+      "id": "1",
+      "professional_rut": "10.778.633-0",
+      "patient_rut": "5.776.223-1",
+      "status": "active",
+      "appointment_datetime": "2023-12-18T09:00:00",
+      "created_at": "2023-12-11T18:00:00"
+    },
+    {
+      "id": "2",
+      "professional_rut": "19.101.222-8",
+      "patient_rut": "6.350.445-3",
+      "status": "active",
+      "appointment_datetime": "2023-12-23T11:00:00",
+      "created_at": "2023-12-11T18:00:00"
+    },
+    {
+      "professional_rut": "16.334.000-2",
+      "patientRut": "6.350.445-3",
+      "status": "active",
+      "appointment_datetime": "21-12-2023T13:00:00",
+      "id": "PSuGvyA"
+    },
+    {
+      "professional_rut": "15.009.776-k",
+      "patientRut": "6.350.445-3",
+      "status": "active",
+      "appointment_datetime": "20-12-2023T13:00:00",
+      "created_at": "Thu Dec 14 2023",
+      "id": "zlBfAl3"
+    }
+  ],
+  "tickets": [
+    {
+      "id": "1",
+      "title": "Fix the footer links please",
+      "body": "Body...",
+      "priority": "low",
+      "user_email": "mario@netninja.dev"
+    },
+    {
+      "professional_rut": "15.009.776-k",
+      "patientRut": "6.350.445-3",
+      "status": "active",
+      "appointment_datetime": "20-12-2023T13:00:00",
+      "id": "w_42YTX"
+    }
+  ]
+}
