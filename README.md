@@ -9,11 +9,13 @@ Para correr la aplicación en local en el directorio principal del proyecto:
 ```bash
 npm install
 npm run dev
+```
 
 En paralelo, correr json-server en otra terminal en el mismo directorio:
 
 ```bash
 json-server --watch --port 4000 ./data/db.json
+```
 
 ## Flujo
 
