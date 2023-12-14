@@ -14,6 +14,7 @@ npm run dev
 En paralelo, correr json-server en otra terminal en el mismo directorio:
 
 ```bash
+npm install -g json-server
 json-server --watch --port 4000 ./data/db.json
 ```
 
